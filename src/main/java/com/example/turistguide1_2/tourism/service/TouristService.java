@@ -1,11 +1,10 @@
-package tourism.service;
+package com.example.turistguide1_2.tourism.service;
 
 import org.springframework.stereotype.Service;
-import tourism.model.TouristAttraction;
-import tourism.repository.TouristRepository;
+import com.example.turistguide1_2.tourism.model.TouristAttraction;
+import com.example.turistguide1_2.tourism.repository.TouristRepository;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Service
 
@@ -17,8 +16,8 @@ public class TouristService {
 
     }
 
-    public List<TouristAttraction> getAlldata(){
-        return touristRepository.getAlldata();
+    public ArrayList<TouristAttraction> getAllData(){
+        return touristRepository.getAllData();
 
     }
 

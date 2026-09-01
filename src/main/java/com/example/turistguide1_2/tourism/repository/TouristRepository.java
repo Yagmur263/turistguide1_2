@@ -1,10 +1,9 @@
-package tourism.repository;
+package com.example.turistguide1_2.tourism.repository;
 
 import org.springframework.stereotype.Repository;
-import tourism.model.TouristAttraction;
+import com.example.turistguide1_2.tourism.model.TouristAttraction;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Repository
 public class TouristRepository {
@@ -20,7 +19,7 @@ public class TouristRepository {
     }
 
     // Read
-    public List<TouristAttraction> getAlldata() {
+    public ArrayList<TouristAttraction> getAllData() {
         return data;
     }
 
@@ -38,8 +37,6 @@ public class TouristRepository {
     public TouristAttraction addData(TouristAttraction attraction) {
         data.add(attraction);
         return attraction;
-
-
     }
 
     //Update

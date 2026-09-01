@@ -1,4 +1,4 @@
-package tourism.model;
+package com.example.turistguide1_2.tourism.model;
 
 public class TouristAttraction {
     String name;
@@ -34,6 +34,6 @@ public class TouristAttraction {
     // TO STRING
     @Override
     public String toString(){
-        return "Name: " + this.name + "\n Description: " + this.description
+        return "Name: " + this.name + "\n Description: " + this.description;
     }
 }
