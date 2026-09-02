@@ -1,0 +1,36 @@
+.title {
+    color: black;
+    font-family: "Comic Sans MS", cursive;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+#billede1 {
+    height: 300px;
+    width: 300px;
+
+}
+
+#billede2 {
+    height: 300px;
+    width: 300px;
+
+}
+
+#billede3 {
+    height: 300px;
+    width: 300px;
+
+}
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</style>

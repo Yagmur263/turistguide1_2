@@ -11,11 +11,12 @@ public class TouristRepository {
 
 
     public TouristRepository() {
-        TouristAttraction touristAttraction1 = new TouristAttraction("Mount Everest", "En kæmpe sten!");
-        TouristAttraction touristAttraction2 = new TouristAttraction("Tsunami", "Pas på herover!");
-
+        TouristAttraction touristAttraction1 = new TouristAttraction("D'Angleterre Hotel", "Danmarks mest exclusive hotel med de bedste desserter!");
+        TouristAttraction touristAttraction2 = new TouristAttraction("Netto", "Den billigste supermarked i Danmark med gode varer!");
+        TouristAttraction touristAttraction3 = new TouristAttraction("EK", "Top erhvervsakademi i Danmark!");
         data.add(touristAttraction1);
         data.add(touristAttraction2);
+        data.add(touristAttraction3);
     }
 
     // Read
